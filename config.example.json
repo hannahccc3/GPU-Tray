@@ -1,0 +1,14 @@
+{
+  "refresh_interval_seconds": 15,
+  "ssh_timeout_seconds": 8,
+  "servers": [
+    {
+      "name": "example-server",
+      "host": "your.server.example.com",
+      "port": 22,
+      "username": "your-ssh-user",
+      "key_filename": "C:/Users/you/.ssh/id_ed25519",
+      "verify_host_key": false
+    }
+  ]
+}
